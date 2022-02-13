@@ -1,0 +1,82 @@
+
+
+
+.Estilo-Card {
+    box-shadow: 5px 5px 3px rgba(178, 155, 240,0.1);
+    transition: 0.3s;
+    width: 200px ;
+    height: 320px;
+    padding-top: 20px;
+    display :block;
+   
+    
+
+    .container {
+        padding: 2px 16px;
+      }
+}
+
+
+.Estilo-Card:hover {
+    box-shadow: 0 16px 16px 0px rgba(108, 101, 194, 0.5);
+  }
+
+.Estilo-Tabla{
+    width: 100px ;
+    height: 260px;
+    padding-left: 10px;
+    display:flex;
+}
+
+.parrafo{
+    display:flex;
+    width: 280px ;
+    height: 20px;
+    padding-left: 50px;
+    
+}
+.divBoton-crear-Recaudo{
+   
+    align-content:center;
+    width: 1000px ;
+    height: 50px;
+    padding-left: 5px;
+    margin-bottom: 30px;
+    margin-right: 200px;
+
+    .botonRecaudo{
+        width:650px;
+        align-content:center;
+        box-shadow:  5px 5px 3px rgba(46, 46, 46, 0.62);
+        margin: 3px;
+        height: 41px;
+        font-style: normal;
+        font-weight: bold;
+        
+    }
+
+   
+}
+.botonEditar{
+    margin: 2px;
+    box-Shadow: 5px 5px 3px rgba(46, 46, 46, 0.62);
+}
+
+.botonEliminar{
+    margin: 2px;
+    box-Shadow: 5px 5px 3px rgba(46, 46, 46, 0.62);
+}
+
+.contenedorBotonAccion{
+    display: block;
+    margin-Left: 1px;
+    margin-right: 1px;
+}
+
+.estiloModalActualizar{
+    display: block;
+    margin-Top: 1500px;
+    width: 300px;
+
+}
+
